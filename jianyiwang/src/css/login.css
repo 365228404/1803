@@ -1,0 +1,153 @@
+#login{
+    width: 100%;
+    .yiqian1{
+        width: 1000px;height: 675px;margin: 0 auto;
+    }
+}
+/*================top===============*/
+.login_t{
+    height: 41px;
+    padding: 24px 0 18px 0;
+}
+/*===============center==============*/
+.login_c{
+    width: 990px;
+    height: 450px;
+    border: 5px solid #f0f0f0;
+    background: #fff;
+    margin-bottom: 70px;
+    .login_cl{
+        width: 530px;
+        float: left;
+        padding: 65px 0 0 80px;
+    }
+    .login_cr{
+        position: relative;
+        width: 310px;
+        height: 400px;
+        float: left;
+        padding: 62px 64px 0 0;
+        font-size: 14px;
+        .d1{
+            .d1{
+                height: 25px;
+                line-height: 25px;
+                span{float: right;}
+            }
+            .d2{
+                padding-top: 7px;
+                position: relative;
+                height: 45px;
+                line-height: 34px;
+                position: relative;
+                input{
+                    color: #999;
+                    border: 1px solid #e2e2e2;
+                    font-family: arial,"宋体";
+                    font-size: 14px;
+                    height: 16px;
+                    padding: 10px 25px 10px 35px;
+                    width: 245px;
+                    background: url(../src/css/img/rentou.png)7px -72px no-repeat;
+                }
+            }
+            .d4{
+                padding-top: 7px;
+                position: relative;
+                height: 45px;
+                line-height: 34px;
+                position: relative;
+                input{
+                    color: #999;
+                    border: 1px solid #e2e2e2;
+                    font-family: arial,"宋体";
+                    font-size: 14px;
+                    height: 16px;
+                    padding: 10px 25px 10px 35px;
+                    width: 245px;
+                    background: url(../src/css/img/rentou.png)10px -110px no-repeat;
+                }
+            }
+            .d5{
+                margin-top: 5px;
+                padding-top: 7px;
+                position: relative;
+                height: 45px;
+                line-height: 34px;
+                input{margin-bottom:2px;}
+                .a1{float: right;}
+            }
+            .d6{
+                padding-top: 0;
+                height: 45px;
+                input{
+                    width: 310px;
+                    height: 42px;
+                    font-size: 18px;
+                    color: #fff;
+                    text-align: center;
+                    background: #c40000;
+                    border: none;
+                    font: 400 18px/42px "\5FAE\8F6F\96C5\9ED1";
+                    cursor: pointer;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .d2{
+            p{
+                color: #888;
+                line-height: 30px;
+                border-bottom: 1px solid #e5e5e5;
+                margin-bottom: 15px;
+                font-size: 12px;
+            }
+            .a1{
+                border-right: 1px solid #cfcfcf;
+                width: 45px;
+                display: inline-block;
+                float: left;
+                background: url(../src/css/img/rentou.png) 0 2px no-repeat;
+                height: 20px;
+                line-height: 20px;
+                padding-left: 20px;
+                margin: 0 10px 0 0;
+            }
+            .a2{
+                    border-right: 1px solid #cfcfcf;
+                    display: inline-block;
+                    float: left;
+                    background: url(../src/css/img/rentou.png) 0 -22px no-repeat;
+                    width: 60px;
+                    height: 20px;
+                    line-height: 20px;
+                    padding-left: 20px;
+                    margin: 0 10px 0 0;
+            }
+            .a3{
+                width: 100px;
+                display: inline-block;
+                float: left;
+                background: url(../src/css/img/rentou.png) 0 -44px no-repeat;
+                width: 60px;
+                height: 20px;
+                line-height: 20px;
+                padding-left: 20px;
+                margin: 0 10px 0 0;
+            }
+        }
+    }
+
+}
+
+/*=================bottom=============*/
+.login_b{
+    text-align: center;
+    line-height: 24px;
+    .d1{
+        a{
+            line-height: 22px;
+        }
+    }
+}

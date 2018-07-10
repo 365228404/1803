@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>mycart</title>
+    <link rel="stylesheet" type="text/css" href="../../dist/common.css" />
+    <script src="../lib/require.js"  data-main='../js/car'></script>
+
+</head>
+<body>
+    <div id="mycart">
+        <div class="yq f12">
+            <!-- ===========header======= -->
+            <div class="header">
+                <div class="header_l">
+                    <span>
+                        您好， 欢迎来到健一网
+                        <h1>网上药店</h1>
+                        [<a href="login.html">登录</a>]
+                        [<a href="register.html">注册</a>]
+                        <a href="javascript:"><img src="../img/qq_login.gif" alt="" /></a>
+                        <a href="javascript:"><img src="../img/zhifubao_login.gif" alt="" /></a>
+                    </span>
+                </div>
+                <div class="header_r">
+                    我的订单 | 全国热线 <strong>4007-800-800</strong>
+                </div>
+            </div>
+            <!-- ==========log=========== -->
+            <div class="log">
+                <a href="../index.html">
+                    <img src="../img/zc1og.png" alt="" />
+                </a>
+                <a href="javascript:" class="a1">1.我的购物车 &gt; 2.填写核对订单信息 &gt; 3.成功提交订单/付款</a>
+            </div>
+            
+            <div class="wdshop">
+                我的购物车         
+            </div>
+
+            <div class="o-top">
+               <div class="fl d1">健一网上药店</div>
+
+               <div class="fr d2">温馨提示：满89元免运费/满150元货到付款免运费</div>
+            </div>
+
+            <!-- ========= gwc===========-->
+            <div class="gwc">
+                <table style="width:976px">
+                    <tr style="background: #f6f6f6; height:30px;margin-top:5px;">
+                        <th width="40%" scope="col">商品名称</th>
+                        <th width="8%" scope="col">货 号</th>
+                        <th width="8%" scope="col">商品规格</th>
+                        <th width="10%" scope="col">生产厂家</th>
+                        <th width="8%" scope="col">健一价</th>
+                        <th width="10%" scope="col">数 量</th>
+                        <th width="8%" scope="col">商品合计</th>
+                        <th width="10%" scope="col">操 作</th>
+                    </tr>
+                    <tr class="tr2"></tr>
+                </table>
+                <table style="width:98%" id="tablecar">
+                    
+                    <tr class="bianse">
+                        <td width="40%" class="td1">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tbody><tr id="tr48502-0">
+                                    <td style="text-align: left; border: none;">
+                                        <input type="checkbox" value="48502-0" name="checkGoods" checked="checked" class="checkGoods">
+                                        <input type="hidden" id="jf48502" value="0">
+                                    </td>
+                                    <td style="text-align: left; border: none;">
+                                        <div class="process-01">
+                                            <a  href="#">
+                                                <img src="../img/gwt1.jpg" style="width: 88px; height: 88px;" alt=" 拜耳 力度伸  维生素C泡腾片 10片（橙味）" title=" 拜耳 力度伸  维生素C泡腾片 10片（橙味）">
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td style="text-align: left; border: none;" class="process-02">
+                                        <div >
+                                            <a >
+                                             拜耳 力度伸  维生素C泡腾片 10片（橙味）   
+                                         </a>
+                                         <a href="#" class="orange" style="font-weight: bold;"> </a>
+                                         <input type="hidden" id="sku48502-0" value="0">
+                                     </div>
+                                 </td>
+                             </tr>
+                         </tbody></table>
+                        </td>
+                        <td width="8%" class="td2">12779</td>
+                        <td width="8%" class="td3">铝管包装，1g，每盒10片，橙味</td>
+                        <td width="10%" class="td4">拜耳医药保健有限公司</td>
+                        <td width="8%" class="td5">
+                            <span class="shopcart-tuijian-price02" id="jyj48502-0">24.00</span>
+                        </td>
+                        <td width="10%" class="td6">
+                            <div class="process-num clearfix">
+                                <div class="d1">
+                                    <a class="shopcart-btn" >-</a>
+                                </div>
+                                <input type="text" value="33">
+                                <div class="d2">
+                                    <a class="shopcart-btn">+</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td width="8%" class="td7">
+                            <span id="sum48502-0" class="sum">792.00</span>
+                        </td>
+                        <td class="td8"> &nbsp; <a href="#">删除</a></td>
+                    </tr>
+                </table>
+                <div class="to"></div>
+            </div>
+  
+            <div class="close">
+                <ul class="fl ul1">
+                    <li class="choice">
+                        <label for="checkAll">
+                            <input name="all" id="checkAll" type="checkbox" checked="checked" value=""/>
+                            <span class="plr5">全选</span>
+                        </label>
+                        <a href="javascript:" class="psc">批量删除</a>
+                        <a href="../index.html" class="fc9">&lt;&lt;继续购物</a>
+                    </li>
+                </ul>
+                <ul class="fr ul2">
+                    <li class="li1"><span class="pr20">已选择<i>11</i>件商品</span><span class="pr20">总价（不包含运费）：￥<strong class="zjia"></strong></span></li>
+                    <li class="li2">
+                        <input type="button" value="去结算" >
+                    </li>
+                </ul>
+            </div>
+            <!-- ===========bottom======= -->
+            <div class="cart_b">
+                <div class="d1">
+                    <a href="javascript:">互联网药品交易服务资格证书</a>&nbsp;&nbsp;<a href="javascript:">药品经营许可证</a>&nbsp;&nbsp;<a href="javascript:">互联网药品信息服务资格证书</a>&nbsp;&nbsp;<a href="javascript:">食品流通许可证</a>&nbsp;&nbsp;<a href="javascript:">医疗器械经营企业许可证</a>&nbsp;&nbsp;<a href="javascript:">药品经营质量管理规范认证证书（新）</a><br>
+                    <a href="javascript:">互联网医疗保健信息服务审核同意书</a>&nbsp;&nbsp;<a href="javascript:">信用资质等级评定</a>&nbsp;&nbsp;<a href="javascript:">信用资质等级证书</a>&nbsp;&nbsp;<a href="javascript:">企业法人营业执照</a>&nbsp;&nbsp;<a href="javascript:">税务登记证</a>
+                </div>
+                <div class="d2">Copyright © j1.com All rights reserved 沪ICP备09007253号  上海健一网大药房连锁经营有限公司
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

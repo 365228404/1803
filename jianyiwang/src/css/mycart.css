@@ -1,0 +1,188 @@
+#mycart{
+    width: 100%;
+}
+/*===============header==============*/
+.header{
+    height: 30px;
+}
+.header_l{
+    height: 30px;
+    overflow: visible;
+    line-height: 20px;
+    float: left;
+    span{
+        float: left;
+        margin: 5px 10px 0px 0px;
+        h1{display: inline;}
+        a{
+            padding: 0 5px;
+        }
+        a:hover{border-bottom: 1px solid #333;}
+    }
+}
+.header_r{
+    float: right;
+    text-align: right;
+    line-height: 30px;
+    strong{
+        color: #c40000;
+        font: 700 12px "arial";
+        font-weight: bold;
+    }
+}
+
+.log{
+    height: 41px;
+    padding: 24px 0 18px 0;
+    .a1{float: right;line-height: 40px;font-size: 16px;}
+}
+.wdshop{font-size: 18px;
+    line-height: 26px;}
+.o-top{color: #6d6d6d;
+    height: 28px;
+    margin-top: 10px;
+    .d1{
+        font-size: 18px;
+        padding-left: 30px;
+        background: url(../src/css/img/myc.png) 0 0 no-repeat;
+    }
+    .d2{
+        margin-top: 5px;
+        color: #333;
+        font-size: 14px;
+    }
+}
+
+
+/*================gwc=================*/
+.gwc{
+    border: 2px solid #eaeaea;
+    table{
+        margin: 5px auto;
+    }
+    .tr2{
+        height: 20px;
+        border:1px solid #ccc;
+    }
+    .bianse{
+        background: #fff4e8;
+        height: 130px;
+        .td1{
+            padding: 10px 5px;
+            text-align: center;
+            border-bottom: 1px solid #e2e2e2;
+            font-size: 12px;
+            line-height: 20px;
+            td{
+                text-align: left;
+                border: none;
+                font-size: 12px;
+                line-height: 20px;
+                padding: 10px 5px;
+                .process-02{
+                    width: 230px;
+                    padding: 10px 5px;
+                }
+            }
+        }
+        .td2,.td5,.td3,.td4,.td6,.td7,.td8{
+            padding: 10px 5px;
+            text-align: center;
+            border-bottom: 1px solid #e2e2e2;
+            font-size: 12px;
+            line-height: 20px;
+        }
+        .td6{
+            div{
+                margin-top: 0px;
+                width: 85px;
+                float: left;
+                height: 22px;
+                padding-left: 5px;
+                div{
+                    width: 21px;
+                    float: left;
+                    cursor:pointer;
+                }
+                .d2{
+                    float: right;
+                     padding-left: 0;
+                }
+                .d1,.d2{
+                    a{
+                        border: 1px solid #CCC;
+                        width: 15px;
+                        height: 20px;
+                        line-height: 20px;
+                        margin: 0 2px 0px 2px;
+                        cursor: pointer;
+                        background: #f6f6f6;
+                        display: block;
+
+                    }
+                }
+                input{
+                    float: left;
+                    width: 35px;
+                    border:1px solid #6d6d6d;
+                    height: 20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+.close{
+    margin: 10px auto 30px;
+    height: 47px;
+    border: 1px solid #e2e2e2;
+    .ul1{
+        li{
+            width: 215px;
+            float: left;
+            padding: 0px 10px 0;
+            line-height: 47px;
+            a{    
+                padding-left: 15px;}
+            .fc9{color: #999;}
+        }
+    }
+    .ul2{
+        .li1{
+            line-height: 47px;
+            font-size: 14px;
+            float: left;
+            span{padding-right: 20px;
+                strong{font-size: 18px;color: #c40000;}}
+        }
+        .li2{
+            float: left;
+            input{
+                width: 126px;
+                height: 47px;
+                background: #c40000;
+                border: none;
+                text-align: center;
+                line-height: 47px;
+                font-size: 18px;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+
+/*=================bottom=============*/
+.cart_b{
+    text-align: center;
+    line-height: 24px;
+    .d1{
+        a{
+            line-height: 22px;
+        }
+    }
+}
